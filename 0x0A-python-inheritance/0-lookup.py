@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""defining the function lookup"""
+
 
 def lookup(obj):
-    return sorted((list(obj.__dict__)) + (dir(obj)))
+    """returns list object"""
+    return dir(obj)
