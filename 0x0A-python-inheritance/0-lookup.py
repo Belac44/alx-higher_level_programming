@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 
 def lookup(obj):
-    return list(sorted((obj.__dict__)))
+    return sorted((list(obj.__dict__)) + (dir(obj)))
